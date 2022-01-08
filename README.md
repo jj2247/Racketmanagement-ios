@@ -3,5 +3,8 @@ Aplikacija je namenjena administratorjem, da vidijo vse loparje, ki obstajajo in
 Aplikacija dobi loparje iz url-ja "https://racketmanagement.azurewebsites.net/api/racket".
 Rezervacije dobi iz "https://racketmanagement.azurewebsites.net/api/loan".
 
-## Authors
+## Author
 Jaša Jovan 63200123
+
+![Racket View](./racketview.png)
+![Loan View](./loanview.png)
