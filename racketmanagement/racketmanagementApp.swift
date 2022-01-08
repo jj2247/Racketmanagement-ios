@@ -11,7 +11,7 @@ import SwiftUI
 struct racketmanagementApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavView()
         }
     }
 }

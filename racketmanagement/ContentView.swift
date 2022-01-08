@@ -8,9 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var examples = [Example]()
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        List(examples) { post in
+            Text("\(post.title)")
+        }.onAppear() {
+            Api().getJson { (examples) in
+                self.examples = examples
+            }
+        }.navigationTitle("examples")
     }
 }
 

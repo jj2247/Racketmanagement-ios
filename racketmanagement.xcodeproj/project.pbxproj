@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D0071D4278853C100DCD045 /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0071D3278853C100DCD045 /* NavView.swift */; };
+		6D2B5A6E27848E2000A2EAF4 /* LoanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2B5A6D27848E2000A2EAF4 /* LoanView.swift */; };
+		6D2B5A742784C46500A2EAF4 /* Loan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2B5A732784C46500A2EAF4 /* Loan.swift */; };
 		6D84BBE927846B840085E4A9 /* racketmanagementApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D84BBE827846B840085E4A9 /* racketmanagementApp.swift */; };
-		6D84BBEB27846B840085E4A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D84BBEA27846B840085E4A9 /* ContentView.swift */; };
 		6D84BBED27846B850085E4A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D84BBEC27846B850085E4A9 /* Assets.xcassets */; };
 		6D84BBF027846B860085E4A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D84BBEF27846B860085E4A9 /* Preview Assets.xcassets */; };
 		6D84BBFA27846B860085E4A9 /* racketmanagementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D84BBF927846B860085E4A9 /* racketmanagementTests.swift */; };
 		6D84BC0427846B860085E4A9 /* racketmanagementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D84BC0327846B860085E4A9 /* racketmanagementUITests.swift */; };
 		6D84BC0627846B860085E4A9 /* racketmanagementUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D84BC0527846B860085E4A9 /* racketmanagementUITestsLaunchTests.swift */; };
+		6DC3774D27884D8500D9BF4B /* RacketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC3774C27884D8500D9BF4B /* RacketView.swift */; };
+		6DFA38552789FA2D0097E92D /* Racket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFA38542789FA2D0097E92D /* Racket.swift */; };
+		6DFA38572789FA420097E92D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFA38562789FA420097E92D /* Model.swift */; };
+		6DFA38592789FA560097E92D /* GripSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFA38582789FA560097E92D /* GripSize.swift */; };
+		6DFA385B2789FA710097E92D /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFA385A2789FA710097E92D /* Brand.swift */; };
+		6DFA385D2789FA8E0097E92D /* ApplicationUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFA385C2789FA8E0097E92D /* ApplicationUser.swift */; };
+		6DFA385F2789FAB60097E92D /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DFA385E2789FAB60097E92D /* Network.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D0071D3278853C100DCD045 /* NavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
+		6D2B5A6D27848E2000A2EAF4 /* LoanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoanView.swift; sourceTree = "<group>"; };
+		6D2B5A732784C46500A2EAF4 /* Loan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loan.swift; sourceTree = "<group>"; };
 		6D84BBE527846B840085E4A9 /* racketmanagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = racketmanagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D84BBE827846B840085E4A9 /* racketmanagementApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = racketmanagementApp.swift; sourceTree = "<group>"; };
-		6D84BBEA27846B840085E4A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6D84BBEC27846B850085E4A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6D84BBEF27846B860085E4A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6D84BBF527846B860085E4A9 /* racketmanagementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = racketmanagementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +55,13 @@
 		6D84BBFF27846B860085E4A9 /* racketmanagementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = racketmanagementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D84BC0327846B860085E4A9 /* racketmanagementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = racketmanagementUITests.swift; sourceTree = "<group>"; };
 		6D84BC0527846B860085E4A9 /* racketmanagementUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = racketmanagementUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6DC3774C27884D8500D9BF4B /* RacketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RacketView.swift; sourceTree = "<group>"; };
+		6DFA38542789FA2D0097E92D /* Racket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Racket.swift; sourceTree = "<group>"; };
+		6DFA38562789FA420097E92D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		6DFA38582789FA560097E92D /* GripSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GripSize.swift; sourceTree = "<group>"; };
+		6DFA385A2789FA710097E92D /* Brand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
+		6DFA385C2789FA8E0097E92D /* ApplicationUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationUser.swift; sourceTree = "<group>"; };
+		6DFA385E2789FAB60097E92D /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +89,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D2B5A6927848DB300A2EAF4 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				6D2B5A732784C46500A2EAF4 /* Loan.swift */,
+				6DFA38542789FA2D0097E92D /* Racket.swift */,
+				6DFA38562789FA420097E92D /* Model.swift */,
+				6DFA38582789FA560097E92D /* GripSize.swift */,
+				6DFA385A2789FA710097E92D /* Brand.swift */,
+				6DFA385C2789FA8E0097E92D /* ApplicationUser.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		6D2B5A6C27848E0200A2EAF4 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				6D2B5A6D27848E2000A2EAF4 /* LoanView.swift */,
+				6DC3774C27884D8500D9BF4B /* RacketView.swift */,
+				6D0071D3278853C100DCD045 /* NavView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
 		6D84BBDC27846B840085E4A9 = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +135,12 @@
 		6D84BBE727846B840085E4A9 /* racketmanagement */ = {
 			isa = PBXGroup;
 			children = (
+				6D2B5A6C27848E0200A2EAF4 /* views */,
+				6D2B5A6927848DB300A2EAF4 /* models */,
 				6D84BBE827846B840085E4A9 /* racketmanagementApp.swift */,
-				6D84BBEA27846B840085E4A9 /* ContentView.swift */,
 				6D84BBEC27846B850085E4A9 /* Assets.xcassets */,
 				6D84BBEE27846B860085E4A9 /* Preview Content */,
+				6DFA385E2789FAB60097E92D /* Network.swift */,
 			);
 			path = racketmanagement;
 			sourceTree = "<group>";
@@ -257,8 +300,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D84BBEB27846B840085E4A9 /* ContentView.swift in Sources */,
+				6DFA38572789FA420097E92D /* Model.swift in Sources */,
+				6DFA385B2789FA710097E92D /* Brand.swift in Sources */,
+				6D0071D4278853C100DCD045 /* NavView.swift in Sources */,
+				6DFA385D2789FA8E0097E92D /* ApplicationUser.swift in Sources */,
 				6D84BBE927846B840085E4A9 /* racketmanagementApp.swift in Sources */,
+				6DFA385F2789FAB60097E92D /* Network.swift in Sources */,
+				6D2B5A742784C46500A2EAF4 /* Loan.swift in Sources */,
+				6DFA38552789FA2D0097E92D /* Racket.swift in Sources */,
+				6DC3774D27884D8500D9BF4B /* RacketView.swift in Sources */,
+				6DFA38592789FA560097E92D /* GripSize.swift in Sources */,
+				6D2B5A6E27848E2000A2EAF4 /* LoanView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
